@@ -18,4 +18,4 @@ Run the Project:
 Just open index.html in your browser.
 
 Author:
-Your Name:omar musbah.
+omar musbah.
