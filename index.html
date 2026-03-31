@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>DALY TASKS</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header><h2>DALY TASKS MANAGEMENT</h2></header>
+
+<h2>login admin</h2>
+
+<input type="text" id="username" placeholder="user name"><br>
+
+<input type="password" id="password" placeholder="password"><br>
+
+<button onclick="login()" id ="loginBtn">login</button>
+
+<p id="error" style="color:red;"></p>
+
+<div id="content" class="container" >
+
+<input type="text" id="id" placeholder="Enter a task">
+
+<button onclick="addtask()">Add</button>
+
+<ul id="mylist"></ul>
+
+</div>
+
+<script src="jsfile.js"></script>
+
+</body>
+
+</html>
